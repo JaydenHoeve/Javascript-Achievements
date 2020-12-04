@@ -1,0 +1,35 @@
+<!doctype html>
+
+    <html>
+
+    <head>
+
+      <meta charset="utf-8">
+
+      <title>Goedemorgen</title>
+
+    </head>
+
+        <body>
+
+      <h1>Tijd met javaScript</h1>
+
+      <input type="button" value="klik op mij" id= "mijnButton"/>
+
+     
+
+     <script>
+       let datum = new Date();//datum is de date
+       let mijnButton = document.getElementById('mijnButton');
+       mijnButton.addEventListener("click",()=>{
+       window.alert(datum + " Hallo ik ben Jayden Hoeve en ik ben 16 jaar oud")
+       })
+
+
+      </script>
+
+    
+
+</body>
+
+    </html>
